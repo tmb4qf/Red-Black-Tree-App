@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Red Black Tree Web App</title>
+		<link href="style1.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+		
+			<div class="title">
+				<h1>Red-Black Tree Web App</h1>
+				<p>Enter commands into the text box below. Valid commands are insert x or delete x, where x is an integer. Enter each command on a separate line.</p>
+			</div>
+			
+			
+			<div class="inputOutput">
+				<div class="input">
+					<textarea  id="userInput" type="text"></textarea>
+					<input  type="button" onclick="computeTree()" value="Enter">
+				</div>
+				<div class="output">
+					<div id="treeInfo"></div>
+				</div>
+			</div>
+			
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="jsgl.min.js"></script>
+		<script src="treeBuilder.js"></script>
+	</body>
+</html>

@@ -1,0 +1,64 @@
+body{
+	font-family: monospace;
+}
+
+.container{
+	margin: 0 auto;
+}
+
+.title{
+	text-align:center;
+	width: 25%;
+	margin: 0 auto;
+}
+
+.inputOutput{
+	margin: 0 auto;
+	width: 100%;
+}
+
+.input{
+	text-align: center;
+}
+
+
+#treeInfo{
+	margin: 30px;
+	min-height: 1000px;
+}
+
+textarea{
+	display: block;
+	margin: 0 auto;
+	min-height: 150px;
+	border: 2px solid black;
+	border-radius: 5px;
+	width: 120px;
+	max-width: 120px;
+}
+
+input{
+	margin: 0 auto;
+}
+
+.r{
+	color: red;
+	margin: 0px;
+}
+
+.b{
+	color: black;
+	margin: 0px;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
